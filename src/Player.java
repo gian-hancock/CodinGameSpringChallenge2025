@@ -6,14 +6,6 @@ class Player {
 
     public static void main(String[] args) {
         var problemInput = ProblemInput.parse(System.in);
-//        var board = new Board(
-//                new int[]{
-//                        1, 0, 0,
-//                        3, 5, 2,
-//                        1, 0, 0,
-//                },
-//                0);
-//        var problemInput = new ProblemInput(board, 40);
 
         if (DEBUG) {
             System.err.printf(
